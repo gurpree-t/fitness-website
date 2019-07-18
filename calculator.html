@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>
+gurpreet singh
+</title>
+<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body >
+<div id="container">
+    <div id="display-container">
+        <p id="display"> </p>
+    </div>
+        <div class="button" data-value="7">
+            <span>7</span>
+        </div>
+        <div class="button" data-value="2">
+            <span>2</span>
+        </div>
+        <div class="button" data-value="+">
+            <span>+</span>
+        </div>
+        <div class="button" data-value="=">
+            <span>=</span>
+        </div>
+</div>
+<script >
+var buttons=document.getElementsByClassName("button");
+var display=document.getElementById("display");
+var operand1=0;
+var operand2=null;
+var operator=null;
+
+for(var i=0; i<buttons.lenght ; i++)
+{   buttons[i].addEventListener('click',function(){
+        var value=this.getAttribute("data-value");
+        if(value =='+'){
+
+        }else if(value =='='){
+
+        }else{
+            display.innerText += value;
+        }
+
+    });
+
+}</script>
+</body>
+</html>

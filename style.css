@@ -1,0 +1,46 @@
+#header:hover{ 
+	color:red;
+}
+
+#image1{
+	display:block;
+	margin-left:0px;
+	margin-right:auto;
+	width:10%;
+}
+#image2{
+	display:block;
+	margin-left:0px;
+	margin-right:auto;
+	width:50%;
+}
+a:hover{
+	color:green;
+}
+main{
+	width:70%;
+	display:inline-block;
+}
+.widgetc{
+	border-top: 4px solid black;
+}
+.widgetc input{
+	display: block;
+	background-color:cyan;
+	margin-bottom:15px;
+	padding:4px;
+}
+
+input[type="submit"]{
+	 font-size:1.2rem;
+	background-color:black;
+	color:white;
+	padding:5px;
+}
+
+aside{
+	display:inline-block;
+	width:21%;
+	vertical-align:top;
+
+}

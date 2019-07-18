@@ -1,0 +1,138 @@
+.a{
+	top:0%;
+	background:linear-gradient(purple,gray);
+}
+
+.her{
+	background:black;
+	position:relative !important;
+}
+
+.hero-image{
+	position:absolute ;
+	height: 100%;
+    width: 100%;
+    opacity: 0.8;
+}
+.hero-content{
+	position:relative;
+	z-index: 7;
+   
+    text-align: center;
+    width: 100%;
+    color: #FFF;
+    padding:160px 0px 132px;
+}
+
+.heading h1 {
+	align-text:center ;
+	display:table;
+    margin: 0 auto;
+    
+    padding: 40px 0 20px;
+	font-size: 50px;
+    letter-spacing: 4px;
+}
+
+.Tag-pageHeading:after {
+    content:" ";
+    display: block;
+    background-color: #ed1c24;
+    height: 3px;
+	
+   margin-left:70px;
+    width: 40px;
+}
+
+.Tag-pageSubHeading {
+	 
+	text-align:center;
+	display:table;
+	content:" ";
+	padding-left: 111px;
+    padding-right: 111px;
+	padding-bottom:30;
+	
+	font-size: 20px;
+}
+.FormDonate-title{
+	color: #ed1c24;
+	line-height: 1.1;
+    font-weight: 900;
+	font-size:40px;
+	font-family: Adelle-Regular;
+    letter-spacing: 2px;
+    text-align: center ;
+    padding-top:3rem ;
+}
+
+.FormDonate-description{
+	color: #5e5e5e;
+	text-align: center;
+    font-size: 18px;
+    line-height: 1.67;
+    padding-top:1rem ;
+	padding-bottom:2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.FormDonate-items, .Fieldset-items {
+    display: flex;
+    flex-wrap: wrap;
+	margin:0rem 5rem 0rem 10rem;
+	
+}
+
+.RadioInput  {
+    padding-left: 25px;
+    
+    width: 100px;
+	
+}
+.Radio-Input-label {
+    color: #303030;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+legend {
+   position: absolute;
+    overflow: hidden;
+	    clip: rect(0,0,0,0);
+}
+.CheckboxInput{
+	
+	text-align:center ;
+	display:block !important;
+}
+.CheckboxInput-label{
+    padding:10;
+	font-size:16px;
+	text-align:center;
+	
+}
+
+.FormDonate-buttons{
+	
+	    text-align: center;
+	padding-bottom:30;
+	overflow: visible;
+	
+}
+.FormDonate-buttons button{
+	 	 
+   color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.25;
+    font-size: 14px;
+    background-color: #ed1c24;
+    padding: 15px 20px;
+    border: 0 solid #ed1c24;
+    transition: all 250ms cubic-bezier(.4,0,.2,1);
+    text-transform: uppercase;
+    overflow: visible;
+}
