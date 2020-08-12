@@ -1,0 +1,17 @@
+:root{
+color:white;
+
+}
+
+h1,form{
+ text-shadow: 2px 2px 4px #000000;
+}
+
+.button{
+height:40;
+ width:100;
+font-size:20;
+color:white;
+background-color:black;
+
+}
